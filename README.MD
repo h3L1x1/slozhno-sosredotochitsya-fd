@@ -1,1 +1,1 @@
-https://github.com/h3L1x1/slozhno-sosredotochitsya-fdsasa
+https://github.com/h3L1x1/slozhno-sosredotochitsya-fd
