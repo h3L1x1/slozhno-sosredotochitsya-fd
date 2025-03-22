@@ -5,7 +5,7 @@
 
 :root {
   --text-color: #FF0070;
-  --main-font-family: IBM Plex Mono, sans-serif;
+  --main-font-family: IBM Plex Mono, monospace, sans-serif;
   --font-size: 18px;
   --title-color: #000028;
   --paragraph-color: #F1B2CE;

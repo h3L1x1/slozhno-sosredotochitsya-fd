@@ -12,10 +12,7 @@
 
   --text-color: #353430;
   --bg-color: #FF8DCB;
-  --main-font-family: IBM Plex Mono, sans-serif;
-  --font-size: 18px;
-  --title-color: #000028;
-  --paragraph-color: #F1B2CE;
+ 
 }
 
 .theme-light .page {
@@ -26,16 +23,17 @@
 }
 
 .theme-light .header {
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .nofocus__title {
+.theme-light .main__title-extended {
   color:#FFC2E6;
   text-shadow: 4px 4px 0 var(--bg-color);
 }
 
-.theme-light .nofocus__title-paragraph {
+.theme-light .header__title-paragraph {
   background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .theme-light .content__titile {
@@ -71,6 +69,10 @@
 .theme-light .shadow__content:focus-visible {
   --border-color:  #353430;
   border: 1px solid var(--border-color);
+}
+
+.theme-light .header__point {
+  display: none;
 }
 
 

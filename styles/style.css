@@ -5,3 +5,68 @@
   background-color: #000028;
   background-attachment: fixed;
 }
+
+.header__title {
+  margin-left: 10px;
+}
+
+.decorated-zone {
+  inline-size: 100vw;
+  block-size: 668px;
+}
+
+.header__theme-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 15px 0 0;
+}
+
+.shadow__content:hover {
+  border-bottom: 1px solid var(--paragraph-color);
+}
+
+.moved {
+  margin-left: 10px;
+}
+
+.subtitle__indent { 
+  margin-top: 25px;
+}
+
+.middle__subtitle-indent {
+  margin-top: 25px;
+}
+
+.sunset {
+  block-size: 142px;
+}
+
+.ice-cream {
+  block-size: 355px;
+}
+
+.tape {
+  block-size: 237px;
+}
+
+.books {
+  block-size: 355px;
+}
+
+.street {
+  block-size: 237px;
+}
+
+
+.gallery {
+  display: grid;
+  margin: 10px;
+  inline-size: 355px;
+}
