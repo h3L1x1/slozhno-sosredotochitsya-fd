@@ -12,12 +12,16 @@
 
   --text-color: #353430;
   --bg-color: #FF8DCB;
- 
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
+  min-inline-size: 375px;
+  max-inline-size: 1024px;
+  background-image: url(../images/cover-image-light.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #ffeef6;
   background-attachment: fixed;
 }
@@ -57,7 +61,7 @@
   border: 1px solid #32312D66
 }
 
-.theme-light .header__point::after {
+.theme-light .header__rec::after {
   display: none;
 }
 
@@ -71,7 +75,7 @@
   border: 1px solid var(--border-color);
 }
 
-.theme-light .header__point {
+.theme-light .header__rec {
   display: none;
 }
 
