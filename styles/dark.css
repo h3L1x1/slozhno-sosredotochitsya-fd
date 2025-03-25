@@ -10,16 +10,32 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --hover-text-color: #ff007066;
+  --text-color: #FF0070;
+  --title-color: #000028;
+  --paragraph-color: #F1B2CE;
+  --main-title-color: #DB00FF;
+  --shadow-title: #FF0070;
+  --bg-color: #FF0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: #000028;
+  --shadow-color: #FF0070;
+  --main-title-shadow-color: #FF0070;
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
+  
 }
-
+.theme-dark .header__rec {
+  display: block;
+}
  .header__theme-menu-item:hover {
   border: 1px solid var(--hover-text-color);
 }
+
+
+
+
 
 
 

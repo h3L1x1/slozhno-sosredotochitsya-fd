@@ -9,5 +9,20 @@
   --font-size: 18px;
   --title-color: #000028;
   --paragraph-color: #F1B2CE;
+  --main-title-color: #DB00FF;
+  --shadow-title: #FF0070;
+  --bg-color: #FF0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: #000028;
+  --shadow-color: #FF0070;
+  --main-title-shadow-color: #FF0070;
+  --hover-text-color: #ff007066;
+  --main-gap: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --main-gap: 20px;
+  }
 }
 

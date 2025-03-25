@@ -11,72 +11,59 @@
   */
 
   --text-color: #353430;
+  --title-color: #353430;
   --bg-color: #FF8DCB;
+  --hover-text-color: #353430;
+  --hover-header-color: #32312D66;
+  --main-title-color: #FFC2E6;
+  --bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #ffeef6;
+  --paragraph-color: #353430;
+  --shadow-color: #Ff8dcb;
+  --main-title-shadow-color: #FF8DCB;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  min-inline-size: 375px;
-  max-inline-size: 1024px;
-  background-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #ffeef6;
-  background-attachment: fixed;
-}
-
-.theme-light .header {
+ 
   background-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .main__title-extended {
-  color:#FFC2E6;
-  text-shadow: 4px 4px 0 var(--bg-color);
-}
-
-.theme-light .header__title-paragraph {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-.theme-light .content__titile {
-  background-color: var(--bg-color); 
-}
-
-.theme-light .content__subtitle {
-  background-color: var(--bg-color);
-} 
-
-.theme-light .content__text {
-  color: var(--text-color);
-}
-
-.theme-light .shadow__content {
-  --text-color: #Ff8dcb;
-  text-shadow: 1px 2px 0 var(--text-color);
-}
-
-.theme-light .header__theme-menu-item:hover {
-  border: 1px solid #32312D66
-}
-
-.theme-light .header__rec::after {
-  display: none;
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  outline: none;
-  border-bottom: 1px solid var(--text-color);
-}
-
-.theme-light .shadow__content:focus-visible {
-  --border-color:  #353430;
-  border: 1px solid var(--border-color);
+@media (width >= 1024px) {
+  .theme-light .footer__title {
+    --main-title-shadow-color: #FF0070;
+   text-shadow: 2px 2px 0 var(--main-title-shadow-color);
+  }
 }
 
 .theme-light .header__rec {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --text-color: #353430;
+  --title-color: #353430;
+  --paragraph-color: #353430;
+  --bg-color: #FF8DCB;
+  --hover-text-color: #353430;
+  --hover-header-color: #32312D66;
+  --main-title-color: #FFC2E6;
+  --shadow-title: #FF8DCB;
+  --bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #ffeef6;
+  --shadow-color: #Ff8dcb;
+  --main-title-shadow-color: #FF8DCB;
+  }
+
+   .header__rec {
+    display: none;
+  }
+}
+
+
+
+
+
 
 
