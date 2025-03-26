@@ -29,10 +29,6 @@
 .theme-dark .header__rec {
   display: block;
 }
- .header__theme-menu-item:hover {
-  border: 1px solid var(--hover-text-color);
-}
-
 
 
 

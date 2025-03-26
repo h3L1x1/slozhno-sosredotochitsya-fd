@@ -18,6 +18,8 @@
   --main-title-shadow-color: #FF0070;
   --hover-text-color: #ff007066;
   --main-gap: 10px;
+  --section-gap: 20px;
+  --line-height: 23.4px;
 }
 
 @media (width >= 768px) {
