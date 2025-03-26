@@ -17,16 +17,17 @@
   --hover-header-color: #32312D66;
   --main-title-color: #FFC2E6;
   --bg-image: url(../images/cover-image-light.png);
-  --page-bg-color: #ffeef6;
+  --page-bg-color: #fff1f7;
   --paragraph-color: #353430;
   --shadow-color: #Ff8dcb;
   --main-title-shadow-color: #FF8DCB;
+  --hover-text-color: #32312D66;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
- 
   background-image: url(../images/cover-image-light.png);
+  background-color: var(--page-bg-color);
 }
 
 @media (width >= 1024px) {
@@ -51,9 +52,10 @@
   --main-title-color: #FFC2E6;
   --shadow-title: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
-  --page-bg-color: #ffeef6;
+  --page-bg-color: #fff1f7;
   --shadow-color: #Ff8dcb;
   --main-title-shadow-color: #FF8DCB;
+  --hover-text-color: #32312D66;
   }
 
    .header__rec {
