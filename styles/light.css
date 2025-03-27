@@ -22,6 +22,7 @@
   --shadow-color: #Ff8dcb;
   --main-title-shadow-color: #FF8DCB;
   --hover-text-color: #32312D66;
+  --focus-text-color: #353430;
 }
 
 .theme-light .page {
@@ -56,6 +57,7 @@
   --shadow-color: #Ff8dcb;
   --main-title-shadow-color: #FF8DCB;
   --hover-text-color: #32312D66;
+  --focus-text-color: #353430;
   }
 
    .header__rec {

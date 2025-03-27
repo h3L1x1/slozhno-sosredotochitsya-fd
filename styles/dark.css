@@ -20,6 +20,7 @@
   --page-bg-color: #000028;
   --shadow-color: #FF0070;
   --main-title-shadow-color: #FF0070;
+  --focus-text-color:  #F1B2CE;
 }
 
 .theme-dark .page {
@@ -29,6 +30,8 @@
 .theme-dark .header__rec {
   display: block;
 }
+
+
 
 
 
